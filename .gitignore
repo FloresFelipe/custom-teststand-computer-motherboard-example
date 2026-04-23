@@ -64,7 +64,8 @@ TestStand/Cache/
 Reports/
 TestResults/
 Results/
-Modules/    # Compiled TestStand modules
+**/Modules/    # Compiled TestStand modules
+**/Modules/**
 
 ###############################################################################
 # TestStand Deployment / Build artifacts
@@ -74,8 +75,8 @@ Modules/    # Compiled TestStand modules
 Deployment/
 Installer/
 Distribution/
-ProcessingStage/
-Packages/
+**/ProcessingStage/
+**/Packages/
 
 ###############################################################################
 # NI / Tooling folders
