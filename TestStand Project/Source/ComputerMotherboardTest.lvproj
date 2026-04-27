@@ -51,10 +51,9 @@
 				<Property Name="Destination[1].path" Type="Path">../Modules/SupportVIs</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7E3AE57C-3EEA-40E6-862C-52C35ADCC169}</Property>
-				<Property Name="Source[0].newName" Type="Str">MotherboardTest - </Property>
+				<Property Name="Source[0].itemID" Type="Str">{DB7C7ED8-F4C4-4862-8E1A-A3FB3EC17646}</Property>
+				<Property Name="Source[0].newName" Type="Str">MT_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cache Diagnostics.vi</Property>
