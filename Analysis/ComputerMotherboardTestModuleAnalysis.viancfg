@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Config>
 <FileFormatVersion>1</FileFormatVersion>
-<AnalyzeProject>TRUE</AnalyzeProject>
-<ProjectPath>"..\\TestStand Project\\Source\\ComputerMotherboardTest.lvproj"</ProjectPath>
+<AnalyzeProject>FALSE</AnalyzeProject>
+<ProjectPath>""</ProjectPath>
 <TargetIndex>0</TargetIndex>
 <ItemsToAnalyze>
+	<Item>
+		<Path>"..\\TestStand Project\\Source"</Path>
+		<Removed>FALSE</Removed>
+	</Item>
 </ItemsToAnalyze>
 <TestConfigData>
 	<Test>
@@ -523,7 +527,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Documentation\\Developer\\Approved Bookmark Tags.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -533,7 +537,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Documentation\\Developer\\Comment Usage.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -543,7 +547,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Documentation\\Developer\\Label Call Library Nodes.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -553,7 +557,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Documentation\\Developer\\Revision History.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -563,7 +567,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Documentation\\User\\Spell Check.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -573,7 +577,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Documentation\\User\\VI Documentation.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -723,7 +727,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\File Properties\\SubVI and TypeDef Locations.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -733,7 +737,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\File Properties\\VI Extension.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -743,7 +747,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\File Properties\\VI Name.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -753,7 +757,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\File Properties\\VI Saved Version.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -763,7 +767,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\File Properties\\VI Size.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -773,7 +777,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\Icon and Connector Pane\\Connector Pane Alignment.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -783,7 +787,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\Icon and Connector Pane\\Connector Pane Pattern.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -793,7 +797,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\Icon and Connector Pane\\Default Icon.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -803,7 +807,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\Icon and Connector Pane\\Error Style.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -813,7 +817,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\Icon and Connector Pane\\Full Connector Pane.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -823,7 +827,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\Icon and Connector Pane\\Icon Size and Border.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -833,7 +837,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\Icon and Connector Pane\\Polymorphic Terminals.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -843,7 +847,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\Icon and Connector Pane\\Terminal Connection Type.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -853,7 +857,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\Icon and Connector Pane\\Terminal Positions.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -863,7 +867,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\Auto Error Handling Enabled.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -873,7 +877,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\Broken VI.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -883,7 +887,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\Built Application Compatibility.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -893,7 +897,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\Control VI Type.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -903,7 +907,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\Driver Usage.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -913,7 +917,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\Platform Portability.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -923,7 +927,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\Removed Diagram.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -933,7 +937,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\Separate Compiled Code Setting.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -943,7 +947,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\Toolkit Usage.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -953,7 +957,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\General\\VI Properties\\VI Lock State.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
